@@ -36,7 +36,7 @@ const Search = (props)=>{
 
 
                   <input value={searchValue} onChange={handleInputChange} type='text'></input>
-                  <input onClick={(e)=>{callSearch();resetInputFields();}} type="Submit" value="SEARCH"></input>
+                  <input onClick={callSearch} type="Submit" value="SEARCH"></input>
 
 
 
