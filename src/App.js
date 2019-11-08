@@ -5,7 +5,7 @@ import Movie from './Movie';
 import Search from "./Search";
 
 
-const MOVIE_API_URL = "http://www.omdbapi.com/?s=man&apikey=725f23e0";
+const MOVIE_API_URL = "https://www.omdbapi.com/?s=man&apikey=725f23e0";
 
 const initialState = {
   loading: true,
