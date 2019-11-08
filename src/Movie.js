@@ -15,7 +15,7 @@ const Movie = ({movie}) =>{
             <h2>{movie.Title}</h2>
             <div >
 
-                  <img width='200' alt={`The movie titled : ${movie.Title}`} src={poster}/>
+                  <img width='200' height='250' alt={`The movie titled : ${movie.Title}`} src={poster}/>
 
             </div>
             <p>Year : {movie.Year}</p>
