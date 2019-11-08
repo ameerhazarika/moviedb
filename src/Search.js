@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import { tsPropertySignature } from '@babel/types';
+//import { tsPropertySignature } from '@babel/types';
 
 
 const Search = (props)=>{
@@ -36,7 +36,7 @@ const Search = (props)=>{
 
 
                   <input value={searchValue} onChange={handleInputChange} type='text'></input>
-                  <input onClick={callSearch} type="Submit" value="SEARCH"></input>
+                  <input onClick={(e)=>{callSearch();resetInputFields();}} type="Submit" value="SEARCH"></input>
 
 
 
